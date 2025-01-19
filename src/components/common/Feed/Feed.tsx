@@ -134,7 +134,7 @@ function Feed({
       label: "Edit",
       icon: "pi pi-pencil",
       command: () => handleEdit(),
-    }
+    },
   ];
 
   const header = imgUri && (
@@ -196,7 +196,11 @@ function Feed({
             <TieredMenu model={items} popup ref={menu} breakpoint="767px" />
             <i
               className="pi pi-ellipsis-v cursor-pointer"
-              onClick={(e) => menu.current.toggle(e)}
+              onClick={(e) => {
+                if (!menu.current) return;
+
+                menu.current.toggle(e);
+              }}
             ></i>
           </div>
         )}
