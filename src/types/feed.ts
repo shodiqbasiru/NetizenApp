@@ -9,7 +9,5 @@ export interface Feed {
     postDate?: string;
     content?: string;
     userId?: string;
-    likes?: number;
     comments?: Comment[];
-    // tags?: [];
   }

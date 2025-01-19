@@ -55,9 +55,7 @@ const Home = () => {
             avatarUri={feed.avatarUri}
             postDate={feed.postDate}
             content={feed.content}
-            likes={feed.likes}
             comments={feed.comments}
-            tags={feed.tags}
             onDelete={deleteFeed}
           />
         );
