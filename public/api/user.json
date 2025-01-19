@@ -1,0 +1,102 @@
+[
+  {
+    "id": "USR001",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@gmail.com",
+    "phoneNumber": "123-456-7890",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1990-01-01 00:00:00"
+  },
+  {
+    "id": "USR002",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "janesmith@gmail.com",
+    "phoneNumber": "234-567-8901",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1992-03-15 00:00:00"
+  },
+  {
+    "id": "USR003",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michaelbrown@gmail.com",
+    "phoneNumber": "345-678-9012",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1988-07-20 00:00:00"
+  },
+  {
+    "id": "USR004",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emilydavis@gmail.com",
+    "phoneNumber": "456-789-0123",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1993-12-11 00:00:00"
+  },
+  {
+    "id": "USR005",
+    "firstName": "Chris",
+    "lastName": "Wilson",
+    "email": "chriswilson@gmail.com",
+    "phoneNumber": "567-890-1234",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1991-04-04 00:00:00"
+  },
+  {
+    "id": "USR006",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarahjohnson@gmail.com",
+    "phoneNumber": "678-901-2345",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1989-06-23 00:00:00"
+  },
+  {
+    "id": "USR007",
+    "firstName": "David",
+    "lastName": "Miller",
+    "email": "davidmiller@gmail.com",
+    "phoneNumber": "789-012-3456",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1994-09-30 00:00:00"
+  },
+  {
+    "id": "USR008",
+    "firstName": "Laura",
+    "lastName": "Martinez",
+    "email": "lauramartinez@gmail.com",
+    "phoneNumber": "890-123-4567",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1990-02-14 00:00:00"
+  },
+  {
+    "id": "USR009",
+    "firstName": "James",
+    "lastName": "Garcia",
+    "email": "jamesgarcia@gmail.com",
+    "phoneNumber": "901-234-5678",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1987-11-03 00:00:00"
+  },
+  {
+    "id": "USR010",
+    "firstName": "Sophia",
+    "lastName": "Anderson",
+    "email": "sophiaanderson@gmail.com",
+    "phoneNumber": "012-345-6789",
+    "password": "password",
+    "avatarUri": "",
+    "dateOfBirth": "1995-08-08 00:00:00"
+  }
+]
