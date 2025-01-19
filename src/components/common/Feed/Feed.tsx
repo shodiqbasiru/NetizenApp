@@ -201,7 +201,7 @@ function Feed({
               onClick={(e) => {
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore
-                menu.current.toggle(e);
+                menu.current?.toggle(e);
               }}
             ></i>
           </div>
