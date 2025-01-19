@@ -42,7 +42,7 @@ function Feed({
   const [feedComments, setFeedComments] = useState<Comment[]>(comments || []);
   const [showComments, setShowComments] = useState(false);
   const [users, setUsers] = useState<User[]>([]);
-  const menu = useRef(null);
+  const menu = useRef<TieredMenu>(null);
 
   const navigate = useNavigate();
 
