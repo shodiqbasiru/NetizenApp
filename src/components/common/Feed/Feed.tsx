@@ -21,12 +21,12 @@ import { Button } from "primereact/button";
 import { getUsers } from "../../../usecase/usecase-users";
 import { useNavigate } from "react-router";
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
 interface Feeduser extends FeedType {
   user: User;
-  onDelete: (feedId: string | undefined) => void;
+  onDelete: (
+    feedId: string | undefined // eslint-disable @typescript-eslint/no-unused-vars 
+  ) => void; // eslint-disable @typescript-eslint/no-unused-vars 
 }
-/* eslint-enable @typescript-eslint/no-unused-vars */
 
 function Feed({
   id,
@@ -199,9 +199,7 @@ function Feed({
             <i
               className="pi pi-ellipsis-v cursor-pointer"
               onClick={(e) => {
-                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                // @ts-ignore
-                menu.current?.toggle(e);
+                menu.current?.toggle(e); // eslint-disable @typescript-eslint/no-unused-vars
               }}
             ></i>
           </div>
