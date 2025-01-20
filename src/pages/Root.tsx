@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router";
 import Home from "./Home/Home";
-import AuthComponent from "../components/views/auth";
+import AuthComponent from "./auth";
 import Login from "../components/common/Login/Login";
 import Register from "../components/common/Register/Register";
 import DefaultLayout from "../components/layouts/DefaultLayout";
